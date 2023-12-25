@@ -21,6 +21,9 @@ export default function Navbar() {
                     <li>
                         <Link href="/Faq">FaQ</Link>
                     </li>
+                    <li>
+                        <Link href="/">Home</Link>
+                    </li>
                 </ul>
             </div>
             <div className="mt-3">

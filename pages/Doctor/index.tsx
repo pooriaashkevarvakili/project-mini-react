@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from 'react'
+import Navbar from "../../layouts/Navbar";
 
 const Doctor = () => {
     return (
@@ -10,7 +11,7 @@ const Doctor = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" className="rounded-full" href="/images/favicon.png" />	            </Head>
             <main>
-            
+            <Navbar/>
             </main>
         </>
     );
