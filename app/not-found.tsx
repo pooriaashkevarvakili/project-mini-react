@@ -1,7 +1,5 @@
 import Link from "next/link"
 import "../assets/styles/modules/globals.scss"
-
-import "../assets/styles/modules/css/style.css"
 export default function Custom404() {
     return (
         <div className="flex items-center  justify-center w-full h-screen">
