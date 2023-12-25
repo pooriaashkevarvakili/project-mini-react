@@ -1,4 +1,5 @@
 import React from 'react'
+
 export default function RootLayout({
     children,
   }: {
@@ -7,7 +8,7 @@ export default function RootLayout({
     return (
         //@ts-ignore
       <html lang="en">
-        
+       
         <body>{children}</body>
       </html>
     )

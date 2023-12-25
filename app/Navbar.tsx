@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from 'react'
+
 import { CiPhone } from "react-icons/ci";
 import { MdOutlineMail } from "react-icons/md";
 export default function Navbar() {
@@ -27,7 +28,7 @@ export default function Navbar() {
                 <div className="flex space-x-4  ">
 
                     <div className="flex space-x-2  items-center">
-                        <CiPhone className="text-blue-400 text-2xl"/>
+                        <CiPhone className="text-blue-400 text-2xl" />
                         <span>0080123456789</span>
                     </div>
                     <div className="flex space-x-2 items-center">
