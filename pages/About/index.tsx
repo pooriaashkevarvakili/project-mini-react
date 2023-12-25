@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React from 'react'
-import Navbar from "../../layouts/Navbar";
 
 const About = () => {
     return (
