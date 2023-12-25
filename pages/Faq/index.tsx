@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from 'react'
-import Navbar from "../../app/Navbar";
+import Navbar from "../../layouts/Navbar";
 
 const FaQ = () => {
     return (

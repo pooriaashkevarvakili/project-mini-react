@@ -1,10 +1,5 @@
-import React from 'react'
-import Navbar from "../app/Navbar"
-export default function app() {
+export default function App() {
     return (
-        
-        <div>
-            <Navbar />
-        </div>
+        <div></div>
     )
 }

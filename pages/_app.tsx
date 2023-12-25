@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import type { AppProps } from 'next/app'
 import "../assets/styles/modules/globals.css"
 import Loading from "./Loading";
+import Navbar from '../layouts/Navbar';
 export default function App({ Component, pageProps }: AppProps) {
   const [showLoading, setShowLoading] = useState(true);
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLoading(false);
@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 
       <Component {...pageProps} />
-
+      <Navbar />
 
     </>
 
