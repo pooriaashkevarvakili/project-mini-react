@@ -1,5 +1,5 @@
 import Link from "next/link"
-import "../assets/styles/modules/globals.css"
+import "../assets/styles/modules/globals.scss"
 
 export default function Custom404() {
     return (
