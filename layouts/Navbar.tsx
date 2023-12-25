@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from 'react'
-
+import "../assets/styles/modules/globals.css"
 import { CiPhone } from "react-icons/ci";
 import { MdOutlineMail } from "react-icons/md";
 export default function Navbar() {
